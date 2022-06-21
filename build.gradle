@@ -1,0 +1,14 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.+'
+}
+
+version = '1.0'
+group = 'com.quantumxenon.origins_all_the_mobs'
+
+minecraft {
+    mappings channel: 'official', version: '1.19'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19-41.0.45'
+}

@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1, 
+	"id": "origins-all-the-mobs", 
+	"name": "Origins: All the Mobs", 
+	"version": "1.0", 
+	"description": "A collection of origins for every mob in the game",
+	"authors": ["TheQuantumXenon"],   
+	"contributors": ["sebmarsh1234#5722"]
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-all-the-mobs",
+		"issues": "https://github.com/QuantumXenon/origins-all-the-mods/issues"
+	},
+	"icon": "temp.png",
+	"depends": {
+		"fabric-api-base": "*",
+		"origins": "*",
+	    "pehkui": "*"
+	}
+}
