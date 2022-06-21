@@ -1,14 +1,10 @@
 plugins {
-    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'fabric-loom' version '0.12-SNAPSHOT'
 }
 
-version = '1.0'
-group = 'com.quantumxenon.origins_all_the_mobs'
-
-minecraft {
-    mappings channel: 'official', version: '1.19'
-}
+version = project.mod_version
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19-41.0.45'
+    minecraft("com.mojang:minecraft:${project.minecraft_version}")
+    mappings("net.fabricmc:yarn:${project.yarn_mappings}")
 }
